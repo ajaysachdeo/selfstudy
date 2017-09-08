@@ -11,7 +11,8 @@ namespace HelloWorld
         static void Main(string[] args)
         {
             CustomHelloWorld chw = new CustomHelloWorld();
-            Console.WriteLine(chw.SayCustomHello("Ajay"));
+            Console.Write("Enter your name:");
+            Console.WriteLine(chw.SayCustomHello(Console.ReadLine()));
             Console.Read();
         }
     }
