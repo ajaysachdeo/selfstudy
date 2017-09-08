@@ -10,7 +10,8 @@ namespace HelloWorld
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World v5!!!!");
+            CustomHelloWorld chw = new CustomHelloWorld();
+            Console.WriteLine(chw.SayCustomHello("Ajay"));
             Console.Read();
         }
     }
